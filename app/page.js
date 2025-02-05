@@ -158,22 +158,26 @@ export default function Component() {
               <div className="group relative overflow-hidden rounded-lg bg-background shadow-lg transition-all duration-300 hover:scale-105">
                 <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="relative p-6 space-y-2">
-                  <h3 className="text-xl font-bold">Demo Ecommerce (Still under construction)</h3>
+                  <h3 className="text-xl font-bold">Professional Landing Page</h3>
                   <p className="text-muted-foreground">
-                    A mobile-first e-commerce demo website built with Flutter and Firebase.
+                    A landing page built with HTML, CSS.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="rounded-full bg-primary-foreground/20 px-3 py-1 text-sm font-medium">Flutter</span>
-                    <span className="rounded-full bg-primary-foreground/20 px-3 py-1 text-sm font-medium">
-                      Firebase
-                    </span>
-                    <span className="rounded-full bg-primary-foreground/20 px-3 py-1 text-sm font-medium">
-                      E-commerce
-                    </span>
+                    <span className="rounded-full bg-primary-foreground/20 px-3 py-1 text-sm font-medium">HTML</span>
+                    <span className="rounded-full bg-primary-foreground/20 px-3 py-1 text-sm font-medium">CSS</span>
                   </div>
-
+                  <div className="mt-4 flex justify-end">
+                    <Link
+                      href="https://makerstech.co/"
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                      prefetch={false}
+                    >
+                      View Project
+                    </Link>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
@@ -196,7 +200,7 @@ export default function Component() {
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <SiAstro className="h-12 w-12" />
                   <p className="text-lg font-medium">Astro</p>
-                </div>  
+                </div>
                 <div className="flex flex-col items-center justify-center space-y-2">
                   <SiTailwindcss className="h-12 w-12" />
                   <p className="text-lg font-medium">Tailwind CSS</p>
@@ -224,9 +228,9 @@ export default function Component() {
               </div>
               <div className="flex flex-col justify-normal  space-y-4">
                 <h3 className="text-2xl font-bold">Why Choose Me?</h3>
-               <p>
-               As a systems engineer with a solid foundation in data development and analysis. I am dedicated to creating efficient and effective solutions, 
-               focusing on user-friendly and scalable applications. My work emphasizes continuous improvement and the consistent delivery of high-quality projects.
+                <p>
+                  As a systems engineer with a solid foundation in data development and analysis. I am dedicated to creating efficient and effective solutions,
+                  focusing on user-friendly and scalable applications. My work emphasizes continuous improvement and the consistent delivery of high-quality projects.
                 </p>
                 <ul className="space-y-2">
                   <li>
